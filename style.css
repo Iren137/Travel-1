@@ -1,0 +1,506 @@
+nav {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+.navbar {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 494px 700px 250px;
+
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+}
+
+
+.link-group {
+    list-style: none;
+    display: flex;
+    margin-top: 35px;
+}
+
+.link {
+    height: 21px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 21px;
+    margin-left: 20px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.link a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: normal
+}
+
+.link a:hover{
+    color: #0D606F;
+    opacity: 1;
+}
+
+a:hover {
+    color: #F2785C;
+}
+
+.log_in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    width: 103px;
+    height: 41px;
+    left: 1217px;
+    top: 25px;
+
+    background: #0D606F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.log_in a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.log_in a:hover{
+    color: #F2785C;
+}
+
+.travel {
+    width: 400px;
+    height: 31px;
+    left: 156px;
+    top: 25px;
+
+    font-family: 'Magra';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    margin-left: 156px;
+    margin-top: 18px;
+
+    color: #FFFFFF;
+}
+
+.first {
+    width: 1440px;
+    height: 765px;
+    left: 0px;
+    top: 0px;
+
+    background: url(img/garrett-parker-DlkF4-dbCOU-unsplash.png);
+}
+
+.second {
+    width: 1442px;
+    height: 1331px;
+    left: 0px;
+    top: 0px;
+
+    background: url(img/fon2.png);
+}
+
+.in_second {
+    position: absolute;
+    width: 1445px;
+    height: 1270px;
+    left: 0px;
+    top: 2404px;
+
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.remainder {
+    position: absolute;
+    width: 1445px;
+    height: 61px;
+    left: 0px;
+    top: 3674px;
+}
+
+h1 {
+    position: absolute;
+    width: 892px;
+    height: 422px;
+    left: 150px;
+    top: 60px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+
+    color: #FFFFFF;
+}
+
+h2 {
+    position: absolute;
+    width: 723px;
+    height: 24px;
+    left: 150px;
+    top: 346px;
+
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.rectangle-grid {
+    display: grid;
+    grid-gap: 600px 392px;
+}
+
+.rectangle8 {
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    left: 150px;
+    top: 416px;
+
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+}
+
+.rectangle8-text {
+    width: 560px;
+    height: 22px;
+    left: 161px;
+    top: 448px;
+
+    margin-top: 32px;
+    margin-left: 41px;
+
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    background: rgba(255, 255, 255, 0);
+    color: #F2785C;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+::placeholder {
+    color: #F2785C;
+    opacity: 1;
+}
+
+.rectangle8-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 766px;
+    top: 434px;
+
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+}
+
+.text-r8-in {
+    width: 163px;
+    height: 32px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.text-r8-in a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.text-r8-in a:hover{
+    color: #F2785C;
+}
+
+.steps {
+    width: 611px;
+    height: 53px;
+    left: calc(50% - 611px / 2);
+    top: calc(50% - 53px / 2 - 97px);
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+
+
+    color: #F2785C;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    left: calc(50% - 100px / 2);
+    top: calc(50% - 100px / 2);
+
+    background: #F2785C;
+    border-radius: 16px;
+}
+
+.three_part {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+
+.three_part2 {
+    display: grid;
+    grid-template-columns: 260px 60px 800px 60px 800px;
+    /*grid-template-columns: 20% 55% 20%;*/
+}
+
+.pic {
+    width: 800px;
+    height: 800px;
+    left: 860px;
+    top: 0px;
+    border-radius: 16px;
+}
+
+.text2 {
+    width: 247px;
+    height: 24px;
+    left: 0px;
+    top: 130px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0D606F;
+}
+
+.ellipce1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+
+    background: rgba(242, 120, 92, 0.5);
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.ellipce2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+
+    background: #F2785C;
+
+    flex: none;
+    flex-grow: 0;
+}
+
+.three {
+    display: grid;
+    grid-template-columns: 20px 20px 20px;
+}
+
+.frame3 {
+    display: flex;
+    /*display: grid;*/
+    /*grid-gap: 35px 116px;*/
+    /*grid-gap: 15% 50%;*/
+    /*flex-direction: row;*/
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 607px;
+    top: 2172px;
+
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+}
+
+.find_more {
+    width: 116px;
+    height: 32px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    flex-grow: 0;
+
+    text-decoration: none;
+
+    margin-left: 10px;
+}
+
+.find_more a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.find_more a:hover{
+    color: #F2785C;
+}
+
+.five {
+    display: grid;
+    grid-template-rows: 280px 280px 280px 280px 120px;
+}
+
+.five-in {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 440px 800px;
+}
+
+.four_img {
+    width: 400px;
+    height: 250px;
+    left: 120px;
+    top: 2444px;
+
+    filter: drop-shadow(0px 4px 4px #0D606F);
+    border-radius: 16px;
+}
+
+.maket {
+    display: grid;
+    grid-template-rows: 40px 184px;
+}
+
+.maket_name {
+    width: 760px;
+    height: 42px;
+    left: 560px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+
+    color: #0D606F;
+}
+
+.maket_text {
+    margin-top: 24px;
+    width: 760px;
+    height: 184px;
+    left: 560px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #0D606F;
+}
+
+.maket_a {
+    color: #0D606F;
+    font-family: 'Aleo';
+}
+
+.remainder1{
+    position: absolute;
+    width: 260px;
+    height: 21px;
+    left: 591px;
+    top: 20px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.insta{
+    position: absolute;
+    left: 1180px;
+    top: 15px;
+}
+
+.player1 {
+    position: absolute;
+    left: 1235px;
+    top: 15px;
+}
+
+.player2 {
+    position: absolute;
+    left: 1246px;
+    top: 22px;
+}
+
+.twitter {
+    position: absolute;
+    left: 1287px;
+    top: 15px;
+}
